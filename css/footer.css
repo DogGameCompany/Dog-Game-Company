@@ -1,0 +1,18 @@
+.container{
+	height: auto;
+}
+
+footer{
+	display: table-row;
+	height: 1px;
+}
+
+footer div.container{
+	box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.4);
+    padding-bottom: 1px;
+}
+
+h2.phrase-footer {
+    margin: 1px;
+	font-size: 23px;
+}

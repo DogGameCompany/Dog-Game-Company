@@ -1,0 +1,210 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	display: table;
+	height: 100%;
+    width: 100%;
+    min-width: 460px;
+}
+
+/* séparateur */
+hr.separateur {
+    width: 96.5%;
+}
+/* fin du séparateur */
+
+/* menu de navigation */
+nav.menu-nav {
+    margin-left: -20px;
+}
+
+nav.menu-nav ul li.btn {
+    font-size: 30px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a {
+    color: #fff;
+    font-family: baloo bhai;
+	background-color: #03A9F4;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav.menu-nav ul li.btn:hover a {
+	color: #03A9F4;
+	background-color: #fff;
+	transition: 0.2s all;
+}
+/* fin du menu de navigation */
+
+/* project.html */
+
+/* titre */
+h1.titre {
+    margin: auto;
+    padding: 20px;
+    background-color: #03A9F4;
+    font-family: bangers;
+    font-size: 45px;
+    letter-spacing: 2.5px;
+}
+
+h1.titre a {
+    cursor: default;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+h1.titre a:hover {
+    padding: 10px;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+/* fin du titre */
+
+/* les menus */
+h1.liste-menu {
+    margin-left: 100px;
+    cursor: default;
+    font-family: Titillium Web;
+}
+
+a.lien-menu {
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    font-family: gugi;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+a.lien-menu:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+
+h2.lien-menu-txt {
+    font-family: Open Sans Condensed;
+}
+
+em.lien-menu-txt-2 {
+    margin-left: 20px;
+    cursor: default;
+}
+/* fin des menus */
+
+/* fdc */
+h1.liste-fdc {
+    margin-left: 75px;
+    cursor: default;
+    font-family: Titillium Web;
+}
+
+a.lien-fdc {
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    font-family: gugi;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+a.lien-fdc:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+
+h2.lien-fdc-txt {
+    font-family: Open Sans Condensed;
+}
+
+em.lien-fdc-txt-2 {
+    margin-left: 20px;
+    cursor: default;
+}
+/* fin de fdc*/
+
+/* fin de project.html */
+
+/* phrase de bienvenue */
+h1.phrase-de-bienvenue {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: roboto;
+}
+
+em.nom-pdb {
+    color: #03A9F4;
+}
+/* fin de phrase de bienvenue */
+
+/* phrase explique */
+a.nom-pdb {
+    color: #03A9F4;
+    text-decoration-line: none;
+}
+
+a.nom-pdb:hover {
+ text-decoration-line: underline;
+}
+
+h1.phrase-explique {
+    font-family: roboto;
+    margin-left: 30px;
+    font-size: 25px;
+}
+/* fin de phrase explique */
+
+/* scratch.html */
+a.nom-scratch {
+    text-decoration: none;
+    color: red;
+}
+
+a.nom-scratch:hover {
+    text-decoration: underline;
+}
+
+h1.rejoindre {
+    margin-left: 30px;
+    font-family: roboto;
+}
+
+a.rejoindre-lien {
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    font-family: gugi;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+a.rejoindre-lien:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+
+h1.nom-tlp {
+    text-decoration: underline;
+    font-family: roboto;
+    font-size: 40px;
+}
+
+h1 em.aucun-projets {
+    color: #616161;
+}
+/* fin */
