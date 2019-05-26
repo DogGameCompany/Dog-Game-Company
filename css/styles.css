@@ -208,3 +208,15 @@ h1 em.aucun-projets {
     color: #616161;
 }
 /* fin */
+
+/* maintenance.html */
+h1.site-main {
+    margin-top: 150px;
+    font-family: monospace;
+}
+
+#logo {
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+/* fin */
