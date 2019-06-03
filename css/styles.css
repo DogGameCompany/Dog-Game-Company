@@ -210,7 +210,7 @@ h1 em.aucun-projets {
 /* fin */
 
 /* maintenance.html */
-h1.site-main {
+.site-main {
     margin-top: 150px;
     font-family: monospace;
 }
