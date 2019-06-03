@@ -210,8 +210,12 @@ h1 em.aucun-projets {
 /* fin */
 
 /* maintenance.html */
-.site-main {
+h1.site-main {
     margin-top: 150px;
+    font-family: monospace;
+}
+
+h2.site-main {
     font-family: monospace;
 }
 
