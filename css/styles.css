@@ -1,6 +1,6 @@
 html, body{
 	margin: 0;
-	padding: 0;
+    padding: 0;
 	display: table;
 	height: 100%;
     width: 100%;
@@ -13,81 +13,146 @@ hr.separateur {
 }
 /* fin du séparateur */
 
-/* menu de navigation */
-nav.menu-nav {
-    margin-left: -20px;
+.button_container {
+    margin-left: 420px;
+    margin-top: -70px;
 }
 
-nav.menu-nav ul li.btn {
-    font-size: 30px;
-	list-style-type: none;
-	display: inline-block;
-}
-
-nav.menu-nav ul li.btn a {
+#button_modal {
+    height: 50px;
+    width: 300px;
+    background-color: #e74c3c;
     color: #fff;
-    font-family: baloo bhai;
-	background-color: #03A9F4;
-	text-decoration: none;
-	padding: 10px;
+    font-family: helvetica;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+    border-radius: 12px;
+    box-shadow: 0 9px #d30c0c;
+    outline: none;
 }
 
-nav.menu-nav ul li.btn:hover a {
-	color: #03A9F4;
-	background-color: #fff;
-	transition: 0.2s all;
+#button_modal:hover {
+    box-shadow: 0 6px #d30c0c;
+    transform: translateY(3px);
 }
-/* fin du menu de navigation */
 
-/* project.html */
+#button_modal:active {
+    box-shadow: 0 2px #d30c0c;
+    transform: translateY(7px);
+}
 
 /* titre */
-h1.titre {
-    margin: auto;
-    padding: 20px;
-    background-color: #03A9F4;
-    font-family: bangers;
-    font-size: 45px;
-    letter-spacing: 2.5px;
+header{
+    background-color:#3498db;
+    height:70px;
+    font-family: gugi;
 }
 
-h1.titre a {
-    cursor: default;
-    color: white;
+.left{float:left;}
+.right{float:right;}
+
+.logo{
+    color:#fff;
+    font-size:30px;
+    text-transform:uppercase;
+    line-height:70px;
+    font-weight:800;
     text-decoration: none;
-    border: 2px solid transparent;
 }
 
-h1.titre a:hover {
-    padding: 10px;
-    border: 2px solid white;
-    transition: 0.2s;
+.logo:hover{
+    color: #d2d2d0;
+}
+
+.container{
+    width:1000px;
+    margin:auto;
+}
+
+.menu{
+    padding:0;
+    margin:0;
+}
+
+.menu .title{
+    display:inline-block;
+    float:left;
+    position:relative;
+    padding:25px 10px;
+    transition:0.5s;
+}
+
+.menu .title a{
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight:700;
+    font-size:16px;
+}
+
+.menu .title:hover{
+    background-color:#2980b9;
+}
+
+.menu .sous_menu{
+    display:block;
+    position:absolute;
+    visibility:hidden;
+    height:0;
+    top:70px;
+    left:0;
+    transform:scaleY(0);
+    transform-origin:50% 0;
+    transition:transform 1s ease;
+    background-color:#fff;
+    box-shadow:0 2px 3px rgba(34,36,38,.15);
+    border:1 px solid rgba(34,36,38,.15);
+    border-radius:0 0 5px 5px;
+}
+
+.menu .title:hover .sous_menu{
+    visibility:visible;
+    height:auto;
+    transform:scaleY(1);
+}
+
+.menu .sous_menu li{
+    padding:0;
+    display:inline-block;
+    color:#000;
+    float:left;
+    width:150px;
+    margin-left:-40px;
+    padding:5px;
+    transition:0.2s;
+}
+
+.menu .sous_menu li a{
+    text-transform:none;
+    color:#242424;
+    padding:0 0 0 5px;
+    font-weight:normal;
+    font-size:24px;
+}
+
+.menu .sous_menu li:hover{
+    background-color:#f9f9f9;
+    border-left:3px solid #3498db;
 }
 /* fin du titre */
 
-/* les menus */
 h1.liste-menu {
     margin-left: 100px;
     cursor: default;
-    font-family: Titillium Web;
+    font-family: titillium web;
 }
 
-a.lien-menu {
-    margin-left: 20px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: red;
-    font-family: gugi;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-}
-
-a.lien-menu:hover {
-    background-color: white;
-    color: red;
-    border: 2px solid red;
-    transition: 0.3s;
+.button_container-2 {
+    margin-left: 50px;
 }
 
 h2.lien-menu-txt {
@@ -98,31 +163,12 @@ em.lien-menu-txt-2 {
     margin-left: 20px;
     cursor: default;
 }
-/* fin des menus */
 
 /* fdc */
 h1.liste-fdc {
     margin-left: 75px;
     cursor: default;
     font-family: Titillium Web;
-}
-
-a.lien-fdc {
-    margin-left: 20px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: red;
-    font-family: gugi;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-}
-
-a.lien-fdc:hover {
-    background-color: white;
-    color: red;
-    border: 2px solid red;
-    transition: 0.3s;
 }
 
 h2.lien-fdc-txt {

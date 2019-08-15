@@ -1,5 +1,6 @@
-.container{
+.container-2{
 	height: auto;
+	width: auto;
 }
 
 footer{
@@ -7,12 +8,13 @@ footer{
 	height: 1px;
 }
 
-footer div.container{
+footer div.container-2{
 	box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.4);
     padding-bottom: 1px;
 }
 
 h2.phrase-footer {
     margin: 1px;
-	font-size: 23px;
+	font-size: 20px;
+	font-family: roboto;
 }
